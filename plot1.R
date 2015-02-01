@@ -3,8 +3,9 @@ proj1 <- read.table("household_power_consumption.txt", sep=";", header = TRUE)
 
 # Note: Had run tests on small subset proj1test <- proj1[c(1:100,500000:500050),]
 
-# Did following to convert each column from factor to character. Would later combine # first two columns (time and date) into a proper date format, and the rest into 
-# numeric   
+# Did following to convert each column from factor to character. Would later 
+# combine first two columns (time and date) into a proper date format, and 
+# the rest into numeric   
 
 # Kept the original data untouched in case there is a read to reconfigure later
 sandbox <- as.data.frame(proj1)
